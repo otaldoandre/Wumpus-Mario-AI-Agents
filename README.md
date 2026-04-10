@@ -1,7 +1,7 @@
 # Mario Wumpus em Python/Pygame
 
 <p align="center">
-  <img src="mario_wumpus/mario_wumpus/assets/banner.png" alt="Banner" width="600">
+  <img src="mario_wumpus/mario_wumpus/assets/banner_2.png" alt="Banner" width="1000">
 </p>
 
 O Mundo do Wumpus - Mario Bros Version é uma releitura do clássico problema de Inteligência Artificial em um universo inspirado em Mario Bros. Nesta aventura, Mario explora um mapa em grade repleto de perigos ocultos, como poços e o temido Bowser, enquanto tenta encontrar e resgatar a princesa. Como no Mundo do Wumpus original, o personagem não enxerga todo o ambiente: ele precisa interpretar sinais do cenário, como brisas e odores, para tomar decisões e avançar com segurança.
