@@ -7,6 +7,7 @@ import pygame
 
 from .agents.random_agent import RandomAgent
 from .agents.simple_reactive_agent import ReactiveAgent
+from .agents.state_reactive_agent import StateReactiveAgent
 from .agents.manual import key_to_aim_action, key_to_move_action
 from .config import RenderConfig, WorldConfig
 from .core.actions import Action
@@ -118,7 +119,7 @@ def run_app() -> None:
                     elif buttons["manual"].contains(event.pos):
                         start_game(None, "Manual")
                     elif buttons["intelligent"].contains(event.pos):
-                        start_game(ReactiveAgent(seed=map_size), "Agente inteligente")
+                        start_game(StateReactiveAgent(seed=map_size), "Agente inteligente")
                     elif buttons["quit"].contains(event.pos):
                         running = False
                 elif event.type == pygame.KEYDOWN and event.key == pygame.K_ESCAPE:
